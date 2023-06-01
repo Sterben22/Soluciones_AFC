@@ -15,6 +15,9 @@ while primo <= numero:
     
 desc = []
 for i in dic:
-    desc.append(str(i)+"^"+str(dic[i]))
+    if dic[i]==1:
+        desc.append(str(i))
+    else:
+        desc.append(str(i)+"^"+str(dic[i]))
     
 print(" * ".join(desc))
