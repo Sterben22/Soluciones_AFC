@@ -1,3 +1,5 @@
+#Diego Alexhander Espinoza Huaman
+
 numero = int(input("Numero: "))
 
 dic = {}
